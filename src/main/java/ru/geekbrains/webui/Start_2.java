@@ -1,13 +1,11 @@
 package ru.geekbrains.webui;
 
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
 /*
     Начало работы со стендом, экран логина.
@@ -39,7 +37,7 @@ public class Start_2 {
         // Создаем вторую вкладку
         ((JavascriptExecutor) driver).executeScript("window.open()");
 
-        ArrayList<String> tabs = new ArrayList<> (driver.getWindowHandles());
+        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 
         // Переключаемся на вторую вкладку
         driver.switchTo().window(tabs.get(1));
