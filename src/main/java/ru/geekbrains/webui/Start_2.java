@@ -34,7 +34,7 @@ public class Start_2 {
         driver.get(LOGIN_PAGE_URL);
         Thread.sleep(1000);
 
-        // Создаем вторую вкладку
+        // Создаем вторую вкладку. (Разбор на уроке 5, сейчас показать как магию)
         ((JavascriptExecutor) driver).executeScript("window.open()");
 
         ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());

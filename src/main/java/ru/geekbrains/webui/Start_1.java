@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.util.concurrent.TimeUnit;
-
 /*
     Начало работы со стендом, экран логина.
 
@@ -38,7 +36,7 @@ public class Start_1 {
         driver.manage().window().maximize();
         Thread.sleep(1000);
         // Демонстрация установки конкретных размеров окна
-        driver.manage().window().setSize(new Dimension(500,500));
+        driver.manage().window().setSize(new Dimension(500, 500));
         Thread.sleep(1000);
     }
 
