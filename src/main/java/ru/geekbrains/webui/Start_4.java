@@ -14,6 +14,7 @@ import static java.lang.Thread.sleep;
 
     6. Продолжение рассмотрения способов поиска элементов
     7. Работа с классом Select для взаимодействия с выпадающими списками
+    https://www.selenium.dev/documentation/en/support_packages/working_with_select_elements/
 
     В процессе создания скрипта весь контент должен помещаться в полностью развернутом окне браузера.
     Скроллы к элементу через класс Action будут разобраны на уроке 5!
