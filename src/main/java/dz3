@@ -1,0 +1,578 @@
+{
+  "id": "457737e5-4435-4f82-97a9-00d545874837",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://crm.geekbrains.space/",
+  "tests": [{
+    "id": "b80844da-17bb-4d31-b275-9b03425acb06",
+    "name": "test1",
+    "commands": [{
+      "id": "f8e94fca-7aac-495e-9977-89d5393c680b",
+      "comment": "",
+      "command": "open",
+      "target": "https://crm.geekbrains.space/company/?grid%5Bcrm-company-grid%5D=i%3D1%26p%3D25%26s%255Bname%255D%3D-1%26f%255B__business_unit%255D%3D0%26f%255B__managerNode%255D%3D0%26c%3Dname1.cityName1.companyType1.industry1.status1.business_unit1.createdAt1.unid1.managerNode1%26v%3D20%26a%3Dgrid%26g%255BoriginalRoute%255D%3Dcrm_company_index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81c5fb2b-6a63-491f-b67f-6f113ef67af2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "292e11e8-d2da-48db-b317-6b3861a79af7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Создать организацию",
+      "targets": [
+        ["linkText=Создать организацию", "linkText"],
+        ["css=.back", "css:finder"],
+        ["xpath=(//a[contains(text(),'Создать организацию')])[3]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/company/create')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f7cfbb-f846-4cb1-9a8d-c49b26ddfbd7",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_name-uid-6060b7b39a46e",
+      "targets": [
+        ["id=crm_company_name-uid-6060b7b39a46e", "id"],
+        ["name=crm_company[name]", "name"],
+        ["css=#crm_company_name-uid-6060b7b39a46e", "css:finder"],
+        ["xpath=//input[@id='crm_company_name-uid-6060b7b39a46e']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f468f49-2e4d-4b03-a2da-76ece52ebc13",
+      "comment": "",
+      "command": "type",
+      "target": "name=crm_company[name]",
+      "targets": [
+        ["id=crm_company_name-uid-6060b7b39a46e", "id"],
+        ["name=crm_company[name]", "name"],
+        ["css=#crm_company_name-uid-6060b7b39a46e", "css:finder"],
+        ["xpath=//input[@id='crm_company_name-uid-6060b7b39a46e']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "testtest22"
+    }, {
+      "id": "cbf2156a-cb5f-4259-a341-cc9f8c0b0d84",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_name-uid-6060b7b39a46e",
+      "targets": [
+        ["id=crm_company_name-uid-6060b7b39a46e", "id"],
+        ["name=crm_company[name]", "name"],
+        ["css=#crm_company_name-uid-6060b7b39a46e", "css:finder"],
+        ["xpath=//input[@id='crm_company_name-uid-6060b7b39a46e']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "testtest222"
+    }, {
+      "id": "e46e7d69-66da-4a68-b014-88985ba459c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_shortName-uid-6060b7b39a5de",
+      "targets": [
+        ["id=crm_company_shortName-uid-6060b7b39a5de", "id"],
+        ["name=crm_company[shortName]", "name"],
+        ["css=#crm_company_shortName-uid-6060b7b39a5de", "css:finder"],
+        ["xpath=//input[@id='crm_company_shortName-uid-6060b7b39a5de']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7c40210-83fe-4dfe-945a-d59dfc98798e",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_shortName-uid-6060b7b39a5de",
+      "targets": [
+        ["id=crm_company_shortName-uid-6060b7b39a5de", "id"],
+        ["name=crm_company[shortName]", "name"],
+        ["css=#crm_company_shortName-uid-6060b7b39a5de", "css:finder"],
+        ["xpath=//input[@id='crm_company_shortName-uid-6060b7b39a5de']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "tt22"
+    }, {
+      "id": "c4051baa-043d-4f69-91c2-0c17e0f2ca00",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_shortName-uid-6060b7b39a5de",
+      "targets": [
+        ["id=crm_company_shortName-uid-6060b7b39a5de", "id"],
+        ["name=crm_company[shortName]", "name"],
+        ["css=#crm_company_shortName-uid-6060b7b39a5de", "css:finder"],
+        ["xpath=//input[@id='crm_company_shortName-uid-6060b7b39a5de']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fcb5b0-6706-42bd-bd9a-55d926929df6",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_shortName-uid-6060b7b39a5de",
+      "targets": [
+        ["id=crm_company_shortName-uid-6060b7b39a5de", "id"],
+        ["name=crm_company[shortName]", "name"],
+        ["css=#crm_company_shortName-uid-6060b7b39a5de", "css:finder"],
+        ["xpath=//input[@id='crm_company_shortName-uid-6060b7b39a5de']", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div/div[2]/fieldset/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "tt222"
+    }, {
+      "id": "f8626e2f-0f16-4df0-b700-5aae79f3770e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "xpath=//div[@id='crm_company_companyType-uid-6060b7b3a5d50']/div/label",
+      "targets": [
+        ["css=#crm_company_companyType-uid-6060b7b3a5d50 > .oro-clearfix:nth-child(1) > label", "css:finder"],
+        ["xpath=//div[@id='crm_company_companyType-uid-6060b7b3a5d50']/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Кадровое агентство ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06797182-d74c-48be-80aa-2148f021a5a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_status-uid-6060b7b39e5f2",
+      "targets": [
+        ["id=crm_company_status-uid-6060b7b39e5f2", "id"],
+        ["name=crm_company[status]", "name"],
+        ["css=#crm_company_status-uid-6060b7b39e5f2", "css:finder"],
+        ["xpath=//select[@id='crm_company_status-uid-6060b7b39e5f2']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_status-uid-6060b7b39e5f2']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf2211a-f489-4f71-9ce0-48bb3227ae56",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_status-uid-6060b7b39e5f2",
+      "targets": [
+        ["id=crm_company_status-uid-6060b7b39e5f2", "id"],
+        ["name=crm_company[status]", "name"],
+        ["css=#crm_company_status-uid-6060b7b39e5f2", "css:finder"],
+        ["xpath=//select[@id='crm_company_status-uid-6060b7b39e5f2']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_status-uid-6060b7b39e5f2']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9909b887-8acd-419f-bbf5-4dc5c2ef73ca",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=crm_company_status-uid-6060b7b39e5f2",
+      "targets": [
+        ["id=crm_company_status-uid-6060b7b39e5f2", "id"],
+        ["name=crm_company[status]", "name"],
+        ["css=#crm_company_status-uid-6060b7b39e5f2", "css:finder"],
+        ["xpath=//select[@id='crm_company_status-uid-6060b7b39e5f2']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_status-uid-6060b7b39e5f2']/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "711379bc-835f-477d-8d82-2fecf262c093",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_industry-uid-6060b7b39e79c",
+      "targets": [
+        ["id=crm_company_industry-uid-6060b7b39e79c", "id"],
+        ["name=crm_company[industry]", "name"],
+        ["css=#crm_company_industry-uid-6060b7b39e79c", "css:finder"],
+        ["xpath=//select[@id='crm_company_industry-uid-6060b7b39e79c']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_industry-uid-6060b7b39e79c']/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88ae3c8a-1a57-49f6-b91a-50bbff283c56",
+      "comment": "",
+      "command": "select",
+      "target": "id=crm_company_industry-uid-6060b7b39e79c",
+      "targets": [],
+      "value": "label=Банковская деятельность"
+    }, {
+      "id": "7ddb1a96-b71f-4bca-8f93-77ded5885ac7",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_industry-uid-6060b7b39e79c",
+      "targets": [
+        ["id=crm_company_industry-uid-6060b7b39e79c", "id"],
+        ["name=crm_company[industry]", "name"],
+        ["css=#crm_company_industry-uid-6060b7b39e79c", "css:finder"],
+        ["xpath=//select[@id='crm_company_industry-uid-6060b7b39e79c']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_industry-uid-6060b7b39e79c']/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c31d7f-bf86-41e9-a55c-81e4789eb354",
+      "comment": "",
+      "command": "click",
+      "target": "css=#crm_company_interests-uid-6060b7b3a5317 .oro-clearfix:nth-child(14)",
+      "targets": [
+        ["css=#crm_company_interests-uid-6060b7b3a5317 .oro-clearfix:nth-child(14)", "css:finder"],
+        ["xpath=//div[@id='crm_company_interests-uid-6060b7b3a5317']/div/div[14]", "xpath:idRelative"],
+        ["xpath=//div[14]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b58da8b-37c4-4293-9a68-8d29988ab62b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oro-clearfix:nth-child(14) > label:nth-child(3)",
+      "targets": [
+        ["css=.oro-clearfix:nth-child(14) > label:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='crm_company_interests-uid-6060b7b3a5317']/div/div[14]/label", "xpath:idRelative"],
+        ["xpath=//div[14]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Нагрузочное тестирование')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ebe6f8c-4f4d-4c1c-9b04-b5ae2cfea72b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить телефон",
+      "targets": [
+        ["linkText=Добавить телефон", "linkText"],
+        ["css=.responsive-cell:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить телефон')]", "xpath:link"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div[2]/div[2]/fieldset/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript: void(0);')])[24]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить телефон')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bfe01ab-a90e-4612-8c21-5469e688c3fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Добавить телефон",
+      "targets": [
+        ["linkText=Добавить телефон", "linkText"],
+        ["css=.responsive-cell:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить телефон')]", "xpath:link"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div[2]/div[2]/fieldset/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript: void(0);')])[24]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить телефон')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a7a69dc-8ee4-4c1c-91f1-c7e6dbf915e7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Добавить телефон",
+      "targets": [
+        ["linkText=Добавить телефон", "linkText"],
+        ["css=.responsive-cell:nth-child(2) .controls > .row-oro > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить телефон')]", "xpath:link"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div[2]/div[2]/fieldset/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript: void(0);')])[24]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить телефон')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cf83c20-9e08-442c-a24e-be2570680acf",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_phones_1_prefixCode-uid-6060b7b3a68b7",
+      "targets": [
+        ["id=crm_company_phones_1_prefixCode-uid-6060b7b3a68b7", "id"],
+        ["name=crm_company[phones][1][prefixCode]", "name"],
+        ["css=#crm_company_phones_1_prefixCode-uid-6060b7b3a68b7", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_prefixCode-uid-6060b7b3a68b7']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "005502cf-1c3a-43fe-b3ae-2ab0a955eb95",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_phones_1_type-uid-6060b7b3a69b4",
+      "targets": [
+        ["id=crm_company_phones_1_type-uid-6060b7b3a69b4", "id"],
+        ["name=crm_company[phones][1][type]", "name"],
+        ["css=#crm_company_phones_1_type-uid-6060b7b3a69b4", "css:finder"],
+        ["xpath=//select[@id='crm_company_phones_1_type-uid-6060b7b3a69b4']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_phones_1_type-uid-6060b7b3a69b4']/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae1b32c0-b0d4-4661-a9a0-77204f72db58",
+      "comment": "",
+      "command": "select",
+      "target": "id=crm_company_phones_1_type-uid-6060b7b3a69b4",
+      "targets": [],
+      "value": "label=Рабочий"
+    }, {
+      "id": "b1f31949-1d49-45d0-8b22-f375cf6b0a00",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_phones_1_type-uid-6060b7b3a69b4",
+      "targets": [
+        ["id=crm_company_phones_1_type-uid-6060b7b3a69b4", "id"],
+        ["name=crm_company[phones][1][type]", "name"],
+        ["css=#crm_company_phones_1_type-uid-6060b7b3a69b4", "css:finder"],
+        ["xpath=//select[@id='crm_company_phones_1_type-uid-6060b7b3a69b4']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-crm_company_phones_1_type-uid-6060b7b3a69b4']/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95456904-6135-4207-8395-dc8471a81cde",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_phones_1_prefixCode-uid-6060b7b3a68b7",
+      "targets": [
+        ["id=crm_company_phones_1_prefixCode-uid-6060b7b3a68b7", "id"],
+        ["name=crm_company[phones][1][prefixCode]", "name"],
+        ["css=#crm_company_phones_1_prefixCode-uid-6060b7b3a68b7", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_prefixCode-uid-6060b7b3a68b7']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06d850fc-b2b4-4305-b878-8e8b2ebf08ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_phones_1_prefixCode-uid-6060b7b3a68b7",
+      "targets": [
+        ["id=crm_company_phones_1_prefixCode-uid-6060b7b3a68b7", "id"],
+        ["name=crm_company[phones][1][prefixCode]", "name"],
+        ["css=#crm_company_phones_1_prefixCode-uid-6060b7b3a68b7", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_prefixCode-uid-6060b7b3a68b7']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "321"
+    }, {
+      "id": "e1f2c970-93c3-4d18-bee4-dc52b436063d",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_phones_1_phone-uid-6060b7b3a67b3",
+      "targets": [
+        ["id=crm_company_phones_1_phone-uid-6060b7b3a67b3", "id"],
+        ["name=crm_company[phones][1][phone]", "name"],
+        ["css=#crm_company_phones_1_phone-uid-6060b7b3a67b3", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_phone-uid-6060b7b3a67b3']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f0737f6-4da7-47b2-8a96-309daf641ff5",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_phones_1_phone-uid-6060b7b3a67b3",
+      "targets": [
+        ["id=crm_company_phones_1_phone-uid-6060b7b3a67b3", "id"],
+        ["name=crm_company[phones][1][phone]", "name"],
+        ["css=#crm_company_phones_1_phone-uid-6060b7b3a67b3", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_phone-uid-6060b7b3a67b3']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "32132121"
+    }, {
+      "id": "a6791e68-ef91-431a-8cea-f6c6d0da7999",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_phones_1_internalCode-uid-6060b7b3a691e",
+      "targets": [
+        ["id=crm_company_phones_1_internalCode-uid-6060b7b3a691e", "id"],
+        ["name=crm_company[phones][1][internalCode]", "name"],
+        ["css=#crm_company_phones_1_internalCode-uid-6060b7b3a691e", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_internalCode-uid-6060b7b3a691e']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb303639-7dde-4ebd-aa02-fb5abbe2ec8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_phones_1_internalCode-uid-6060b7b3a691e",
+      "targets": [
+        ["id=crm_company_phones_1_internalCode-uid-6060b7b3a691e", "id"],
+        ["name=crm_company[phones][1][internalCode]", "name"],
+        ["css=#crm_company_phones_1_internalCode-uid-6060b7b3a691e", "css:finder"],
+        ["xpath=//input[@id='crm_company_phones_1_internalCode-uid-6060b7b3a691e']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_phones-uid-6060b7b3a6bcc_collection']/div/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "dcddd175-ed92-4543-8250-4ddce6254858",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Добавить адрес",
+      "targets": [
+        ["linkText=Добавить адрес", "linkText"],
+        ["css=.responsive-cell:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить адрес')]", "xpath:link"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div[2]/div[2]/fieldset/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript: void(0);')])[23]", "xpath:href"],
+        ["xpath=//fieldset/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить адрес')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ed1e8a-6bc9-4cea-95a0-ef26e159515b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Добавить адрес",
+      "targets": [
+        ["linkText=Добавить адрес", "linkText"],
+        ["css=.responsive-cell:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить адрес')]", "xpath:link"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div[2]/div[2]/fieldset/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript: void(0);')])[23]", "xpath:href"],
+        ["xpath=//fieldset/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить адрес')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba8ce16-1b58-4796-aa87-897860abd61f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Добавить адрес",
+      "targets": [
+        ["linkText=Добавить адрес", "linkText"],
+        ["css=.responsive-cell:nth-child(1) .controls > .row-oro > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Добавить адрес')]", "xpath:link"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div[2]/div[2]/div/div[2]/div[2]/fieldset/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript: void(0);')])[23]", "xpath:href"],
+        ["xpath=//fieldset/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добавить адрес')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9821facd-fa06-44f3-a6c2-21a2e168c5f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_addresses_1_postIndex-uid-6060b7b3a71a8",
+      "targets": [
+        ["id=crm_company_addresses_1_postIndex-uid-6060b7b3a71a8", "id"],
+        ["name=crm_company[addresses][1][postIndex]", "name"],
+        ["css=#crm_company_addresses_1_postIndex-uid-6060b7b3a71a8", "css:finder"],
+        ["xpath=//input[@id='crm_company_addresses_1_postIndex-uid-6060b7b3a71a8']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_addresses_1-uid-6060b7b3ac5d7']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0497f90b-9e3e-429c-b863-ed7bb7e1c534",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_addresses_1_street-uid-6060b7b3a70c9",
+      "targets": [
+        ["id=crm_company_addresses_1_street-uid-6060b7b3a70c9", "id"],
+        ["name=crm_company[addresses][1][street]", "name"],
+        ["css=#crm_company_addresses_1_street-uid-6060b7b3a70c9", "css:finder"],
+        ["xpath=//input[@id='crm_company_addresses_1_street-uid-6060b7b3a70c9']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_addresses_1-uid-6060b7b3ac5d7']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8577c0c-e961-4260-ac30-f4cc347b526c",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_addresses_1_street-uid-6060b7b3a70c9",
+      "targets": [
+        ["id=crm_company_addresses_1_street-uid-6060b7b3a70c9", "id"],
+        ["name=crm_company[addresses][1][street]", "name"],
+        ["css=#crm_company_addresses_1_street-uid-6060b7b3a70c9", "css:finder"],
+        ["xpath=//input[@id='crm_company_addresses_1_street-uid-6060b7b3a70c9']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_addresses_1-uid-6060b7b3ac5d7']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "f73f4cfb-fb3f-4287-987c-cb9a9725a7b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_addresses_1_building-uid-6060b7b3a713d",
+      "targets": [
+        ["id=crm_company_addresses_1_building-uid-6060b7b3a713d", "id"],
+        ["name=crm_company[addresses][1][building]", "name"],
+        ["css=#crm_company_addresses_1_building-uid-6060b7b3a713d", "css:finder"],
+        ["xpath=//input[@id='crm_company_addresses_1_building-uid-6060b7b3a713d']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_addresses_1-uid-6060b7b3ac5d7']/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beca5ce0-80e0-4338-9251-757c5dd2180b",
+      "comment": "",
+      "command": "type",
+      "target": "id=crm_company_addresses_1_building-uid-6060b7b3a713d",
+      "targets": [
+        ["id=crm_company_addresses_1_building-uid-6060b7b3a713d", "id"],
+        ["name=crm_company[addresses][1][building]", "name"],
+        ["css=#crm_company_addresses_1_building-uid-6060b7b3a713d", "css:finder"],
+        ["xpath=//input[@id='crm_company_addresses_1_building-uid-6060b7b3a713d']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_addresses_1-uid-6060b7b3ac5d7']/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "ab5faffb-78d2-4304-bfac-a79c34883281",
+      "comment": "",
+      "command": "click",
+      "target": "id=crm_company_technologies_19-uid-6060b7b3a2891",
+      "targets": [
+        ["id=crm_company_technologies_19-uid-6060b7b3a2891", "id"],
+        ["css=#crm_company_technologies_19-uid-6060b7b3a2891", "css:finder"],
+        ["xpath=//input[@id='crm_company_technologies_19-uid-6060b7b3a2891']", "xpath:attributes"],
+        ["xpath=//div[@id='crm_company_technologies-uid-6060b7b3a3a95']/div[20]/input", "xpath:idRelative"],
+        ["xpath=//div[20]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0831780-7821-4f7d-a17d-d9e8cc8669d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-group:nth-child(4) > .btn",
+      "targets": [
+        ["css=.btn-group:nth-child(4) > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='crm_company-uid-6060b7b3b945f']/div/div/div/div[2]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить и закрыть')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2edfe44d-7a04-4cd1-b759-7f1344d36321",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b80844da-17bb-4d31-b275-9b03425acb06"]
+  }],
+  "urls": ["https://crm.geekbrains.space/"],
+  "plugins": []
+}
